@@ -1,0 +1,166 @@
+```css
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+color: #333;
+}
+
+header {
+background-color: #333;
+color: #fff;
+padding: 1rem 0;
+text-align: center;
+}
+
+header h1 {
+margin: 0;
+font-size: 1.8rem;
+}
+header h2 {
+margin: 0;
+font-size: 1.2rem;
+font-weight: normal;
+}
+
+main {
+padding: 20px;
+max-width: 900px;
+margin: 20px auto;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+margin-bottom: 20px;
+padding: 15px;
+border-bottom: 1px solid #eee;
+}
+section:last-child {
+border-bottom: none;
+}
+
+h3, h4, h5 {
+color: #333;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+table, th, td {
+border: 1px solid #ddd;
+}
+
+th, td {
+padding: 8px;
+text-align: left;
+}
+
+th {
+background-color: #f2f2f2;
+}
+
+.pregunta {
+margin-bottom: 15px;
+padding: 10px;
+background-color: #f9f9f9;
+border: 1px solid #eee;
+border-radius: 5px;
+}
+
+.pregunta p {
+font-weight: bold;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+font-weight: normal;
+}
+
+button {
+display: inline-block;
+background-color: #5cb85c;
+color: white;
+padding: 10px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 1rem;
+margin-top: 10px;
+}
+
+button:hover {
+background-color: #4cae4c;
+}
+
+#resultadoQuiz, #resultadoJuego {
+margin-top: 15px;
+padding: 10px;
+border-radius: 5px;
+font-weight: bold;
+}
+
+/* Estilos para el juego de clasificación */
+.contenedor-juego {
+display: flex;
+justify-content: space-around;
+margin: 20px 0;
+padding: 10px;
+border: 1px dashed #ccc;
+}
+
+#equiposParaClasificar {
+width: 45%;
+padding: 10px;
+border: 1px solid #eee;
+background-color: #f9f9f9;
+}
+
+.equipo-item {
+background-color: #e7f3fe;
+border: 1px solid #b3d7ff;
+padding: 8px;
+margin-bottom: 5px;
+cursor: grab;
+border-radius: 4px;
+text-align: center;
+}
+
+.categorias-juego {
+width: 45%;
+display: flex;
+flex-direction: column;
+}
+
+.categoria-destino {
+border: 2px dashed #ccc;
+padding: 10px;
+margin-bottom: 10px;
+min-height: 100px;
+background-color: #fff;
+border-radius: 5px;
+}
+.categoria-destino h4 {
+text-align: center;
+margin-top: 0;
+color: #555;
+}
+.categoria-destino.hover {
+background-color: #e0e0e0; /* Visual feedback for drag over */
+}
+
+footer {
+text-align: center;
+padding: 20px;
+margin-top: 30px;
+background-color: #333;
+color: #fff;
+}
